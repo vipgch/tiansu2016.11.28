@@ -1,0 +1,17 @@
+WAMP   
+ <label  for="agree" >
+        <img  class="checkbox" alt="选中" src="img/true.png" id="checkimg" ng-click="checkclick();">
+      </label>
+      <input type="checkbox"  style="display:none" id="agree" checked="checked">
+ function checkclick(){
+//      var checkimg = document.getElementById("checkimg");
+//      if($("#agree").is(':checked') ){
+//        $("#agree").attr("checked","unchecked");
+//        checkimg.src="../img/unchecked.png";
+//        checkimg.alt="未选";
+//      } else{
+//        $("#agree").attr("checked","checked");
+//        checkimg.src="../img/checked.png";
+//        checkimg.alt="选中";
+//      }
+//    }
